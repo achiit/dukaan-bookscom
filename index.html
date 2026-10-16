@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jeetu Book Store | Funny, Horror &amp; Family Story Books in Rudrapur</title>
+<meta name="description" content="Jeetu Book Store, Azad Nagar, Transit Camp, Rudrapur. Funny books, horror stories, family stories, fiction and kids' story books. Call or WhatsApp to order.">
+<meta name="theme-color" content="#3b2a1e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%233b2a1e'/%3E%3Ctext x='50' y='68' font-size='56' text-anchor='middle'%3E%F0%9F%93%9A%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6eedc;--card:#fbf5e6;--ink:#2e2018;--brown:#3b2a1e;--gold:#d9a21b;--mute:#7a5c43;--line:#e2d3b3;--h:'Fraunces',Georgia,serif;--b:'Manrope',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--b);-webkit-text-size-adjust:100%}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--h);line-height:1.12;color:var(--brown)}
+h1{font-size:clamp(2.2rem,6vw,4rem)}
+h2{font-size:clamp(1.8rem,4vw,2.8rem);margin-bottom:14px}
+h3{font-size:1.25rem;margin-bottom:6px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+section{padding:96px 0}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:999px;font-weight:700;text-decoration:none;border:2px solid var(--brown);font-size:.95rem;min-height:46px}
+.btn.fill{background:var(--gold);border-color:var(--gold);color:var(--brown)}
+.btn.out{background:transparent;color:var(--brown)}
+.btn.dark{background:var(--brown);color:var(--bg)}
+.btn.sm{padding:8px 16px;min-height:38px;font-size:.85rem}
+header{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--line)}
+.hd{display:flex;align-items:center;gap:16px;height:68px}
+.logo{font:700 1.3rem var(--h);color:var(--brown);text-decoration:none;display:flex;align-items:center;gap:8px;margin-right:auto}
+nav{display:flex;gap:22px}
+nav a{text-decoration:none;font-weight:500;font-size:.95rem}
+nav a:hover{color:var(--gold)}
+.hbtn{display:none;background:none;border:2px solid var(--brown);border-radius:10px;width:42px;height:42px;font-size:1.2rem;color:var(--brown)}
+.hero{padding:64px 0 110px;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.eyebrow{font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem;color:var(--mute);margin-bottom:14px}
+.hero p.lead{font-size:1.15rem;margin:18px 0 10px;max-width:34em}
+.proof{font-weight:700;color:var(--mute);font-size:.95rem;margin-bottom:26px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.hv{position:relative;margin-right:-60px}
+.hv img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:220px 220px 24px 24px;background:var(--line);box-shadow:14px 14px 0 var(--gold)}
+.hv .tag{position:absolute;left:-28px;bottom:36px;background:var(--brown);color:var(--bg);padding:14px 18px;border-radius:14px;transform:rotate(-4deg);font:700 1rem var(--h);max-width:200px}
+.strip{background:var(--brown);color:var(--bg);padding:44px 0}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:left}
+.strip b{display:block;font:700 2.2rem var(--h);color:var(--gold)}
+.strip span{font-size:.9rem;opacity:.9}
+.svc-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;margin-top:36px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;display:flex;flex-direction:column;gap:6px;grid-column:span 2}
+.card.big{grid-column:span 3;background:var(--brown);color:var(--bg)}
+.card.big h3{color:var(--gold)}
+.card.wide{grid-column:span 4}
+.card svg.ic{width:38px;height:38px}
+.card p{font-size:.95rem;flex:1}
+.price{font-weight:700;color:var(--mute)}
+.card.big .price{color:var(--gold)}
+.card .btn{align-self:flex-start;margin-top:8px}
+.about{background:var(--card)}
+.about .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
+.av{width:120px;height:120px;border-radius:50%;background:var(--brown);color:var(--gold);display:grid;place-items:center;font:700 2.6rem var(--h);margin-bottom:20px}
+.about p{margin-bottom:14px}
+.diff{list-style:none;margin-top:18px;display:grid;gap:10px}
+.diff li{display:flex;gap:10px;align-items:flex-start;font-weight:500}
+.diff svg{flex:none;width:20px;height:20px;margin-top:4px}
+.gal{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:170px;gap:14px;margin-top:34px}
+.gal img{width:100%;height:100%;object-fit:cover;border-radius:16px;background:var(--line)}
+.gal .a{grid-column:span 2;grid-row:span 2}
+.gal .b{grid-row:span 2}
+.gal .c{grid-column:span 2}
+.rev{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:18px;margin-top:34px}
+.rev figure{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px}
+.rev figure:nth-child(2){transform:translateY(24px)}
+.stars{display:flex;gap:2px;margin-bottom:10px}
+.stars svg{width:18px;height:18px}
+.rev blockquote{margin-bottom:12px}
+.rev figcaption{font-weight:700;font-size:.9rem;color:var(--mute)}
+.plist{max-width:720px;margin-top:28px;border-top:2px solid var(--brown)}
+.plist div{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--line);font-weight:500}
+.plist b{font-family:var(--h);color:var(--brown);white-space:nowrap}
+.note{font-size:.9rem;color:var(--mute);margin-top:14px}
+.contact{background:var(--card)}
+.cg{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:30px}
+.cg iframe{width:100%;height:340px;border:0;border-radius:18px;background:var(--line)}
+.hrs{display:grid;grid-template-columns:auto 1fr;gap:6px 24px;margin:12px 0 22px}
+.hrs dt{font-weight:700}
+.cm{display:grid;gap:8px;margin-bottom:18px}
+.cm a{font-weight:700;text-decoration:none;border-bottom:2px solid var(--gold);width:fit-content}
+footer{background:var(--brown);color:var(--bg);padding:70px 0 110px}
+footer h2{color:var(--bg);font-size:1.8rem;margin-bottom:6px}
+.fg{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:start}
+.fl{display:flex;flex-wrap:wrap;gap:8px 20px;margin:18px 0}
+.fl a{text-decoration:none;opacity:.85}
+.big-wa{width:100%;justify-content:center;font-size:1.15rem;padding:18px}
+.built{margin-top:40px;padding-top:20px;border-top:1px solid #5b4636;font-size:.8rem;text-transform:lowercase;opacity:.8}
+.bar{display:none}
+.mot{display:block;margin:0 0 16px}
+@media(max-width:1080px){.hv{margin-right:0}.rev{grid-template-columns:1fr 1fr}.rev figure:nth-child(2){transform:none}}
+@media(max-width:820px){
+section{padding:72px 0}
+nav{display:none;position:absolute;top:68px;left:0;right:0;background:var(--bg);flex-direction:column;padding:16px 20px;border-bottom:1px solid var(--line);gap:14px}
+nav.open{display:flex}
+.hbtn{display:block}
+.hd .btn.sm span{display:none}
+.hero .wrap,.about .wrap,.cg,.fg{grid-template-columns:1fr}
+.hv{max-width:420px}
+.strip .wrap{grid-template-columns:1fr 1fr}
+.svc-grid{grid-template-columns:1fr 1fr}
+.card,.card.big,.card.wide{grid-column:span 1}
+.gal{grid-template-columns:1fr 1fr}
+.bar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--brown);padding:8px 10px calc(8px + env(safe-area-inset-bottom,0px));gap:8px}
+.bar a{justify-content:center}
+}
+@media(max-width:520px){
+body{font-size:16px}
+.svc-grid,.rev{grid-template-columns:1fr}
+.hd .btn.sm{display:none}
+.hv .tag{left:8px}
+.gal{grid-auto-rows:130px}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="book" viewBox="0 0 48 48"><path d="M24 12c-5-4-12-4-18-2v26c6-2 13-2 18 2 5-4 12-4 18-2V10c-6-2-13-2-18 2z" fill="none" stroke="#3b2a1e" stroke-width="2.5" stroke-linejoin="round"/><path d="M24 12v26" stroke="#d9a21b" stroke-width="2.5"/><path d="M34 6v14l3-3 3 3V8" fill="#d9a21b"/></symbol>
+<symbol id="star" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.4.7-5.6 4.9 1.7 7.3L12 18l-6.5 3.8 1.7-7.3L1.600 9.600l7.400-.7z" fill="#d9a21b"/></symbol>
+<symbol id="tick" viewBox="0 0 24 24"><path d="M12 2l2.600 3.400 4.200-.4.400 4.200L22 12l-2.800 2.800-.4 4.200-4.200-.4L12 22l-2.600-3.400-4.200.4-.4-4.200L2 12l2.800-2.800.4-4.200 4.200.4z" fill="#d9a21b"/><path d="M8 12l3 3 5-6" fill="none" stroke="#3b2a1e" stroke-width="2"/></symbol>
+</defs>
+</svg>
+
+<header>
+<div class="wrap hd">
+<a class="logo" href="#top"><svg width="30" height="30"><use href="#book"/></svg>Jeetu Book Store</a>
+<nav id="nav" aria-label="Main">
+<a href="#services">Books</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#pricing">Prices</a><a href="#contact">Visit</a>
+</nav>
+<a class="btn out sm" href="tel:+917055987048">Call</a>
+<a class="btn fill sm" href="https://wa.me/917055987048?text=Hi%20Jeetu%20Book%20Store%2C%20I%20want%20to%20know%20about%20your%20books." target="_blank" rel="noopener">WhatsApp</a>
+<button class="hbtn" id="hb" aria-label="Menu" aria-expanded="false">&#9776;</button>
+</div>
+</header>
+
+<main id="top">
+<section class="hero">
+<div class="wrap">
+<div>
+<p class="eyebrow">Azad Nagar, Transit Camp &middot; Rudrapur</p>
+<h1>Good stories for every mood, right here in Rudrapur.</h1>
+<p class="lead">Funny reads, spooky horror, warm family tales and everyday story books. Message us the kind of book you like and we will pick it out for you.</p>
+<p class="proof">Rudrapur's neighbourhood book shop &middot; open every day</p>
+<div class="cta">
+<a class="btn fill" href="https://wa.me/917055987048?text=Hi%20Jeetu%2C%20please%20suggest%20a%20good%20book%20for%20me." target="_blank" rel="noopener">Chat on WhatsApp</a>
+<a class="btn out" href="tel:+917055987048">Call 70559 87048</a>
+</div>
+</div>
+<div class="hv">
+<img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&auto=format&fit=crop" alt="Stack of story books on a wooden shelf" width="800" height="1000">
+<div class="tag">Funny. Horror. Family. Fiction.</div>
+</div>
+</div>
+</section>
+
+<div class="strip">
+<div class="wrap">
+<div><b>1 yr</b><span>serving Rudrapur readers</span></div>
+<div><b>6</b><span>book types to pick from</span></div>
+<div><b>8 hrs</b><span>open every single day</span></div>
+<div><b>1 tap</b><span>to call or WhatsApp us</span></div>
+</div>
+</div>
+
+<section id="services">
+<div class="wrap">
+<svg class="mot" width="56" height="56"><use href="#book"/></svg>
+<p class="eyebrow">What we stock</p>
+<h2>Pick a mood, we have the book.</h2>
+<div class="svc-grid">
+<article class="card big"><svg class="ic" viewBox="0 0 48 48"><circle cx="24" cy="24" r="18" fill="#d9a21b"/><circle cx="18" cy="20" r="2.500" fill="#3b2a1e"/><circle cx="30" cy="20" r="2.500" fill="#3b2a1e"/><path d="M14 28q10 12 20 0z" fill="#3b2a1e"/></svg><h3>Funny Books</h3><p>Joke collections, light comedy stories and laugh-out-loud reads for a bad day or a long train ride.</p><span class="price">From &#8377;99</span><a class="btn fill sm" href="https://wa.me/917055987048?text=Hi%20Jeetu%2C%20I%20am%20looking%20for%20funny%20books.%20What%20do%20you%20have%3F" target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+<article class="card big"><svg class="ic" viewBox="0 0 48 48"><path d="M8 40V20a16 16 0 0132 0v20l-6-5-5 5-5-5-5 5-5-5z" fill="#d9a21b"/><circle cx="19" cy="22" r="3" fill="#3b2a1e"/><circle cx="29" cy="22" r="3" fill="#3b2a1e"/></svg><h3>Horror Stories</h3><p>Ghost tales, haunted-house mysteries and shiver-down-the-spine thrillers. Best read with the lights on.</p><span class="price">From &#8377;129</span><a class="btn fill sm" href="https://wa.me/917055987048?text=Hi%20Jeetu%2C%20I%20want%20horror%20story%20books.%20Please%20share%20options." target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+<article class="card"><svg class="ic" viewBox="0 0 48 48"><path d="M6 24L24 8l18 16v16H6z" fill="none" stroke="#3b2a1e" stroke-width="3" stroke-linejoin="round"/><circle cx="24" cy="28" r="4" fill="#d9a21b"/></svg><h3>Family Stories</h3><p>Warm, relatable tales the whole house can enjoy together.</p><span class="price">From &#8377;99</span><a class="btn dark sm" href="https://wa.me/917055987048?text=Hi%20Jeetu%2C%20I%20need%20family%20story%20books." target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+<article class="card"><svg class="ic"><use href="#book"/></svg><h3>Fiction &amp; Novels</h3><p>Page-turners and longer reads for people who like to get lost in a plot.</p><span class="price">From &#8377;149</span><a class="btn dark sm" href="https://wa.me/917055987048?text=Hi%20Jeetu%2C%20please%20suggest%20fiction%20novels." target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+<article class="card"><svg class="ic" viewBox="0 0 48 48"><path d="M24 6l5 12 13 1-10 9 3 13-11-7-11 7 3-13L6 19l13-1z" fill="#d9a21b"/></svg><h3>Kids' Story Books</h3><p>Short, colourful and easy stories for young readers.</p><span class="price">From &#8377;79</span><a class="btn dark sm" href="https://wa.me/917055987048?text=Hi%20Jeetu%2C%20I%20want%20story%20books%20for%20a%20child." target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+<article class="card wide"><svg class="ic" viewBox="0 0 48 48"><rect x="8" y="8" width="32" height="32" rx="4" fill="none" stroke="#3b2a1e" stroke-width="3"/><path d="M15 18h18M15 25h18M15 32h10" stroke="#d9a21b" stroke-width="3"/></svg><h3>General Reading</h3><p>Not sure what you want? Tell us what you enjoyed last and we will suggest something you will finish.</p><span class="price">From &#8377;89</span><a class="btn dark sm" href="https://wa.me/917055987048?text=Hi%20Jeetu%2C%20I%20am%20not%20sure%20what%20to%20read.%20Please%20suggest%20something." target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+</div>
+</div>
+</section>
+
+<section id="about" class="about">
+<div class="wrap">
+<div>
+<div class="av" aria-hidden="true">J</div>
+<h2>Hi, I am Jeetu.</h2>
+<p class="eyebrow">Owner, Jeetu Book Store</p>
+</div>
+<div>
+<p>I opened this shop a year ago because I love a good story and I felt our area needed a friendly place to find one. No big mall, no fancy rules. Just walk in, tell me what you like, and I will hand you something good.</p>
+<p>Some people want a funny book to relax, some want a horror tale to scare their friends, and some want a family story to read with parents. I keep all of them on my shelves and I enjoy matching each person to the right one.</p>
+<p>It has been one year, and the best part is seeing the same faces come back for their next book.</p>
+<ul class="diff">
+<li><svg><use href="#tick"/></svg>Books picked by someone who actually reads them</li>
+<li><svg><use href="#tick"/></svg>Easy WhatsApp ordering, no need to come first</li>
+<li><svg><use href="#tick"/></svg>Honest prices, told before you buy</li>
+<li><svg><use href="#tick"/></svg>Funny, horror, family and more under one roof</li>
+<li><svg><use href="#tick"/></svg>Open every day, 8 hours</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="gallery">
+<div class="wrap">
+<svg class="mot" width="56" height="56"><use href="#book"/></svg>
+<p class="eyebrow">Inside the shop</p>
+<h2>A look at the shelves.</h2>
+<div class="gal">
+<img class="a" loading="lazy" src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&auto=format&fit=crop" alt="Wooden bookshelves full of books" width="800" height="600">
+<img loading="lazy" src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=800&auto=format&fit=crop" alt="Rows of books" width="800" height="600">
+<img class="b" loading="lazy" src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&auto=format&fit=crop" alt="Colourful books on display" width="800" height="600">
+<img loading="lazy" src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&auto=format&fit=crop" alt="Books lined up on a shelf" width="800" height="600">
+<img class="c" loading="lazy" src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&auto=format&fit=crop" alt="Library aisle of books" width="800" height="600">
+<img loading="lazy" src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800&auto=format&fit=crop" alt="Open book with pages" width="800" height="600">
+<img loading="lazy" src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f1?w=800&auto=format&fit=crop" alt="Pile of books" width="800" height="600">
+</div>
+</div>
+</section>
+
+<section class="about">
+<div class="wrap" style="display:block">
+<p class="eyebrow">Readers say</p>
+<h2>Kind words from the neighbourhood.</h2>
+<div class="rev">
+<figure><div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div><blockquote>Went in for one funny book and Jeetu bhai suggested two more. Finished all three in a week. Great picks.</blockquote><figcaption>Rohit, Azad Nagar</figcaption></figure>
+<figure><div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div><blockquote>Ordered a horror story on WhatsApp and picked it up the same evening. Very easy.</blockquote><figcaption>Pooja, Transit Camp</figcaption></figure>
+<figure><div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div><blockquote>Bought story books for my little brother. Prices are fair and he loved them.</blockquote><figcaption>Anjali, Rudrapur</figcaption></figure>
+</div>
+</div>
+</section>
+
+<section id="pricing">
+<div class="wrap">
+<svg class="mot" width="56" height="56"><use href="#book"/></svg>
+<p class="eyebrow">Simple prices</p>
+<h2>What you pay, clearly.</h2>
+<div class="plist">
+<div><span>Kids' story books</span><b>from &#8377;79</b></div>
+<div><span>General reading</span><b>from &#8377;89</b></div>
+<div><span>Funny books</span><b>from &#8377;99</b></div>
+<div><span>Family stories</span><b>from &#8377;99</b></div>
+<div><span>Horror stories</span><b>from &#8377;129</b></div>
+<div><span>Fiction &amp; novels</span><b>from &#8377;149</b></div>
+</div>
+<p class="note">Final price depends on the title and edition. Send us the name on WhatsApp and we will confirm the exact price.</p>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="wrap">
+<p class="eyebrow">Come say hello</p>
+<h2>Visit the shop or message us.</h2>
+<div class="cg">
+<iframe title="Map of Jeetu Book Store" loading="lazy" src="https://maps.google.com/maps?q=Azad%20Nagar%2C%20Transit%20Camp%2C%20Rudrapur%2C%20Uttarakhand&amp;output=embed"></iframe>
+<div>
+<address style="font-style:normal;font-weight:500">Jeetu Book Store<br>Azad Nagar, Transit Camp,<br>Rudrapur, Uttarakhand</address>
+<dl class="hrs"><dt>Open</dt><dd>Every day</dd><dt>Hours</dt><dd>8 hours daily. Message us to confirm today's timing.</dd></dl>
+<div class="cm">
+<a href="tel:+917055987048">Call: 70559 87048</a>
+<a href="https://wa.me/917055987048?text=Hi%20Jeetu%20Book%20Store%2C%20what%20time%20are%20you%20open%20today%3F" target="_blank" rel="noopener">WhatsApp: 70559 87048</a>
+<a href="mailto:jeeturajpoot202@gmail.com">jeeturajpoot202@gmail.com</a>
+<a href="https://instagram.com/rajput_jeetuu_" target="_blank" rel="noopener">Instagram: @rajput_jeetuu_</a>
+</div>
+<a class="btn fill" href="https://wa.me/917055987048?text=Hi%20Jeetu%2C%20please%20share%20the%20shop%20location." target="_blank" rel="noopener">Get location on WhatsApp</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<div class="fg">
+<div>
+<h2>Jeetu Book Store</h2>
+<p>Funny, Horror, Family Stories &amp; More 📚</p>
+<div class="fl"><a href="#services">Books</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#pricing">Prices</a><a href="#contact">Visit</a><a href="https://instagram.com/rajput_jeetuu_" target="_blank" rel="noopener">Instagram</a></div>
+</div>
+<a class="btn fill big-wa" href="https://wa.me/917055987048?text=Hi%20Jeetu%20Book%20Store%2C%20I%20want%20to%20order%20a%20book." target="_blank" rel="noopener">Order on WhatsApp</a>
+</div>
+<p class="built">built with ❤️ by 21.coders</p>
+<p class="built" style="border:0;margin-top:8px;padding:0;text-transform:none">&copy; <span id="yr">2026</span> Jeetu Book Store, Rudrapur</p>
+</div>
+</footer>
+
+<div class="bar">
+<a class="btn out sm" style="color:#f6eedc;border-color:#f6eedc" href="tel:+917055987048">Call</a>
+<a class="btn fill sm" href="https://wa.me/917055987048?text=Hi%20Jeetu%20Book%20Store%2C%20I%20want%20to%20know%20about%20your%20books." target="_blank" rel="noopener">WhatsApp</a>
+</div>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+var hb=document.getElementById('hb'),nv=document.getElementById('nav');
+hb.addEventListener('click',function(){var o=nv.classList.toggle('open');hb.setAttribute('aria-expanded',o)});
+nv.addEventListener('click',function(e){if(e.target.tagName==='A'){nv.classList.remove('open');hb.setAttribute('aria-expanded',false)}});
+</script>
+</body>
+</html>
